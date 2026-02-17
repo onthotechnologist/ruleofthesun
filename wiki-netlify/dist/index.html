@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная - Континент: много веков спустя</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="site-title"><a href="/">Континент: много веков спустя</a></h1>
+            <nav class="main-nav">
+                <a href="/" class="nav-link active">Главная</a>
+                <a href="/search.html" class="nav-link">Поиск</a>
+            </nav>
+        </header>
+
+        <div class="search-bar">
+            <input type="text" id="quick-search" placeholder="Быстрый поиск..." autocomplete="off">
+            <div id="search-results" class="search-results"></div>
+        </div>
+
+        <main class="main-content">
+            <nav class="breadcrumbs">
+                <a href="/">Главная</a>
+            </nav>
+
+            <div class="content">
+                <div class="categories"><div class="category"><h2>Предыстории</h2><ul class="page-list"><li><a href="/предыстории/магик.html">Магик</a></li><li><a href="/предыстории/пламярожденный.html">Пламярожденный</a></li><li><a href="/предыстории/храмовник_гаргаута.html">Храмовник</a></li></ul></div><div class="category"><h2>Сеттинг</h2><ul class="page-list"><li><a href="/сеттинг/порча.html">WIP Порча</a></li><li><a href="/сеттинг/состояние_мира.html">Состояние мира</a></li></ul></div><div class="category"><h2>Порча</h2><ul class="page-list"><li><a href="/порча/таблицы_эффектов_и_аспектов.html">Таблицы Эффектов и Аспектов</a></li></ul></div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Вики создана с помощью статического генератора</p>
+        </footer>
+    </div>
+
+    <script src="/static/js/navigation.js"></script>
+    <script src="/static/js/search.js"></script>
+</body>
+</html>
