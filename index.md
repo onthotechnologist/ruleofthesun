@@ -1,6 +1,7 @@
 ---
-title: Home
-layout: home
+title: О сайте
+layout: default
+nav_order: 0
 ---
 
 Добро пожаловать в вики кампании **Правление Солнца**.
