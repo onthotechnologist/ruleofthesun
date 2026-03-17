@@ -3,6 +3,7 @@ description: Небольшая вики про систему на основе
 theme: just-the-docs
 
 url: https://onthotechnologist.github.io/ruleofthesun
+baseurl: "/ruleofthesun"
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
